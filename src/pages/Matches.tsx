@@ -1,19 +1,19 @@
 
 import Header from "@/components/layout/Header";
 import Navigation from "@/components/layout/Navigation";
-import TournamentOverview from "@/components/dashboard/TournamentOverview";
+import MatchSchedule from "@/components/matches/MatchSchedule";
 
-const Index = () => {
+const Matches = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
       <Navigation />
       
       <main className="container mx-auto px-4 py-6">
-        <TournamentOverview />
+        <MatchSchedule />
       </main>
     </div>
   );
 };
 
-export default Index;
+export default Matches;
